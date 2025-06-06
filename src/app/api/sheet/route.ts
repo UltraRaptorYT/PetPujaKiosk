@@ -54,7 +54,7 @@ export async function GET(req: Request) {
   ]);
 
   const buttonsRows = buttonsRes.data.values ?? [];
-  const buttons = buttonsRows.map(([name, link, image]) => ({
+  const buttons = buttonsRows.map(([name, link]) => ({
     name,
     link,
   }));
