@@ -1,0 +1,13 @@
+body {
+  background-image: url("/background.png");
+  background-repeat: no-repeat;
+  background-color: #fcf2e2;
+  background-size: contain;
+  background-position: top;
+  margin: 0;
+}
+
+.fullHeight {
+  min-height: 100dvh;
+  min-height: 100vh;
+}

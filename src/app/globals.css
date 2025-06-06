@@ -120,3 +120,51 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+
+  html,
+  body {
+    @apply m-0 p-0;
+  }
+}
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  pre,
+  ul,
+  ol,
+  li,
+  figure,
+  hr {
+    @apply m-0 p-0;
+  }
+
+  button,
+  input,
+  select,
+  textarea {
+    @apply bg-transparent border-none p-0 m-0 outline-none;
+  }
+}
+
+@font-face {
+  font-family: "Berthold Block";
+  src: url("/fonts/blockberthold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-berthold {
+  font-family: "Berthold Block", sans-serif;
+}
