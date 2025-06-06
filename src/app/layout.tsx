@@ -20,7 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${montserratSans.variable} antialiased`}>
+      <body
+        className={`${montserratSans.variable} font-montserrat antialiased`}
+      >
         {children}
         <Toaster richColors />
       </body>

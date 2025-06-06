@@ -167,3 +167,18 @@
 .font-berthold {
   font-family: "Berthold Block", sans-serif;
 }
+
+body {
+  font-family: var(--font-montserrat), sans-serif;
+}
+
+@font-face {
+  font-family: "Hortensia";
+  src: url("/fonts/Hortensia-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-hortensia {
+  font-family: "Hortensia", sans-serif;
+}
