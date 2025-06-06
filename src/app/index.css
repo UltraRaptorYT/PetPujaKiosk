@@ -11,3 +11,22 @@ body {
   min-height: 100dvh;
   min-height: 100vh;
 }
+
+.imageBorder {
+  position: relative;
+  padding: 1rem;
+  background: white;
+  border: 2px solid black; /* inner border */
+}
+
+.imageBorder::before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  right: -6px;
+  bottom: -6px;
+  border: 2px solid black; /* outer border */
+  pointer-events: none;
+  z-index: -1;
+}

@@ -78,8 +78,8 @@ export default function PetKiosk() {
     >
       <Image
         src="/BWM Square.png"
-        width={100}
-        height={100}
+        width={1000}
+        height={1000}
         alt={"BWM Logo"}
         className="absolute top-5 right-5 w-24"
       />
@@ -87,9 +87,15 @@ export default function PetKiosk() {
         {/* Content */}
         {step === 0 && (
           <div className="absolute inset-0 flex flex-col items-center">
-            <h1 className="font-berthold text-8xl tracking-tight text-[#2f0f4b] mt-24">
+            <h1 className="font-berthold text-8xl tracking-tight text-[#2f0f4b] mt-20">
               BWM PET BLESSING PUJA
             </h1>
+            <div className="flex gap-3">
+              <div className="flex flex-col gap-3 max-w-[175px]">
+                <p className="text-xl">Pet Portraiture Booth</p>
+                <Image src="" width={1000} height={1000} alt="" className="imageBorder rounded-full" />
+              </div>
+            </div>
             <Image
               src="/pets.png"
               width={1920}
