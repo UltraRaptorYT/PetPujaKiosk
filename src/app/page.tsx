@@ -369,7 +369,7 @@ export default function PetKiosk() {
         {step === 2 && (
           <div className="absolute inset-0 flex flex-col items-center">
             <h1 className="font-berthold text-8xl tracking-tight text-[#2f0f4b] mt-26">
-              OUR PAST PET PUJAS
+              WHAT&apos;S COMING UP?
             </h1>
             <Button
               size={"icon"}
